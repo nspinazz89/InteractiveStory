@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.metova.interactivestory.MainActivity">
+    tools:context="com.metova.interactivestory.ui.MainActivity">
 
     <ImageView
         android:contentDescription="@string/signals_from_mars_title_image"
@@ -28,7 +28,10 @@
         android:layout_marginBottom="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
+        android:background="@android:color/white"
         android:text="@string/start_your_adventure"
+        android:textColor="#3A8AEC"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
